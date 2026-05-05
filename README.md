@@ -33,12 +33,13 @@ Click on Install Models
 Find Gemma-4-E4B-it and install it
 
 # Lang Ecosystem
-
 ## LangChain
 
 ## LangGraph
 
 # Streamlit
+
+## LangSmith for Observability
 
 # ReactJS
 
