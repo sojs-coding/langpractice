@@ -262,3 +262,6 @@ scratch/
 .claude/
 .vs/
 *~
+
+# models
+models/
