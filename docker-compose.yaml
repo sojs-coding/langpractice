@@ -1,0 +1,16 @@
+version: '3.6'
+services:
+  local-ai:
+    image: localai/localai:latest
+    container_name: local-ai
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/readyz"]
+      interval: 1m
+      timeout: 20m
+      retries: 5
+    ports:
+      - 8080:8080
+    environment:
+      - DEBUG=false
+    volumes:
+      - ./models:/models:cached
