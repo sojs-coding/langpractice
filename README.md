@@ -39,6 +39,12 @@ ensure that pwd shows the github folder
 
 `docker compose up -d`
 
+## To see all containers
+`docker ps -a`
+
+## To run LocalAI in the future, use
+`docker start <Name Here>`
+
 ## Install Gemma 4
 ### Install Gemma 4 via the existing Model Gallery
 open localhost:8080 on the web browser
@@ -60,8 +66,17 @@ place the file in the models folder of this github folder or change the volume i
 import via Local Files absolute path
 example found in LocalAI UI, Local Files
 
+# Virtual Environment
+https://docs.astral.sh/uv/getting-started/installation/
+
 # Lang Ecosystem
+## Setup
+uv init
+uv add langchain
+
 ## LangChain
+Refer to basic_langchain. We'll be using OpenAI and LocalAI.
+LocalAI hosts the Model using OpenAI Specs, and we'll use Langchain/OpenAI Integration to connect to LocalAI.
 
 ## LangGraph
 
