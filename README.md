@@ -73,12 +73,17 @@ https://docs.astral.sh/uv/getting-started/installation/
 ## Setup
 uv init
 uv add langchain
+uv add langgraph
 
 ## LangChain
 Refer to basic_langchain. We'll be using OpenAI and LocalAI.
 LocalAI hosts the Model using OpenAI Specs, and we'll use Langchain/OpenAI Integration to connect to LocalAI.
 
 ## LangGraph
+Refer to basic_langgraph_dev.ipynb referenced from https://docs.langchain.com/oss/python/langgraph/quickstart
+### Basic understanding
+Langgraph works by having nodes in the graph connected to other nodes. START -> Nodes -> END.
+You can add tools to the model
 
 # Streamlit
 
